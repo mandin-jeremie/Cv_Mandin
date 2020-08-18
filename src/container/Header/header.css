@@ -1,26 +1,27 @@
 .bloc_header_page{
-  display: flex;
-  justify-content: center;
+
 }
 .bloc_header {
-  text-align: center;
-  padding: 20px;
-  width: 1000px;
-  height: 200px;
-  background-color: rgba(255, 0, 0, 0.274);
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.39);
+  border: 1px solid white;
+
   position: fixed;
+  z-index:10
 }
-.bloc {
-  max-width: 100%;
-  height: 1000px;
-  background-color: rgba(0, 0, 0, 0.274);
-  border: 1px solid black;
-}
+
 .title_name {
-  border: rebeccapurple solid 2px;
+  text-shadow: black 5px 2px 5px;
+  margin: 10px;
+  border: rgb(149, 47, 250) solid 5px;
+  color: white;
   width: 80px;
-  height: 100px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +30,12 @@
 }
 .navPage {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
   margin: 10px;
   cursor: pointer;
+}
+.navPage:hover{
+  transition: 1s;
+  font-size: 17px;
+  text-shadow: black 10px 7px 10px;
 }

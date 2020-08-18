@@ -4,7 +4,7 @@ import "./xp.css";
 
 const Xp = () => {
   return (
-    <div className="bloc" id="xp">
+    <div className="bloc_xp" id="xp">
       <h3>Expériences</h3>
     </div>
   );

@@ -4,7 +4,7 @@ import "./skill.css";
 
 const Skill = () => {
   return (
-    <div className="bloc" id="skill">
+    <div className="bloc_skill" id="skill">
       <h3>Compétances</h3>
     </div>
   );
