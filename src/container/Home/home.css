@@ -11,13 +11,13 @@
   background-size: cover;
 }
 .homeContainer{
-  margin-top: 140px;
+  margin-top: 130px;
   display: flex;
   justify-content: space-evenly;
 }
 .blocText{
   width: 600px;
-  padding-top: 4rem;
+  padding-top: 3.5rem;
   font-size: 25px;
   text-align: center;
 

@@ -7,6 +7,7 @@ import htmlLogo from "../../img/HTML.png";
 import cssLogo from "../../img/CSS.png";
 import jsLogo from "../../img/JS.png";
 import reactLogo from "../../img/REACT.png";
+
 const Home = () => {
   return (
     <div className="bloc_home" id="home">
@@ -24,7 +25,7 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <video className="backgroundVideo" preload="true" autoplay="true" loop muted >
+      <video className="backgroundVideo" preload="true" autoPlay loop muted >
         <source  src={backgroundvideo} type="video/mp4"/>
           Sorry, your browser doesn't support embedded videos.
       </video>

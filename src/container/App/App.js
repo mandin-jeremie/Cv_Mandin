@@ -1,7 +1,8 @@
 import React from "react";
 
+
 import "./app.css";
-import Header from "../Header";
+import Header from "../../components/Header";
 import Skill from "../Skill";
 import Xp from "../Xp";
 import Projects from "../Projects";
