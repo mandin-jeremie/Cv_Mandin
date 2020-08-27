@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { makeStyles } from '@material-ui/core/styles';
+import { useMediaQuery } from 'react-responsive'
 
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
@@ -31,9 +32,28 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function CustomizedTimeline() {
+
+  const Desktop = ({ children }) => {
+    const isDesktop = useMediaQuery({ minWidth: 992 })
+    return isDesktop ? children : null
+  }
+  const Tablet = ({ children }) => {
+    const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 })
+    return isTablet ? children : null
+  }
+  const Mobile = ({ children }) => {
+    const isMobile = useMediaQuery({ maxWidth: 767 })
+    return isMobile ? children : null
+  }
+  const Default = ({ children }) => {
+    const isNotMobile = useMediaQuery({ minWidth: 768 })
+    return isNotMobile ? children : null
+  }
+
   const classes = useStyles();
 
   return (
+    <Desktop>
     <Timeline align="alternate">
       <TimelineItem>
         <TimelineOppositeContent>
@@ -51,7 +71,7 @@ export default function CustomizedTimeline() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-            Web Developpeur 
+            Stagiaire Web Developpeur 
             </Typography>
             <Typography>A l'Addition en tant que developpeur React.</Typography>
           </Paper>
@@ -130,5 +150,6 @@ export default function CustomizedTimeline() {
         </TimelineContent>
       </TimelineItem>
     </Timeline>
+    </Desktop>
   );
 }
