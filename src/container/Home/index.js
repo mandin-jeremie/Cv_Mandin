@@ -10,23 +10,27 @@ import cssLogo from "../../img/CSS.png";
 import jsLogo from "../../img/JS.png";
 import reactLogo from "../../img/REACT.png";
 
+const Desktop = ({ children }) => {
+  const isDesktop = useMediaQuery({ minWidth: 992 })
+  return isDesktop ? children : null
+}
+const Tablet = ({ children }) => {
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 })
+  return isTablet ? children : null
+}
+const Mobile = ({ children }) => {
+  const isMobile = useMediaQuery({ minWidth: 300, maxWidth: 767 })
+  return isMobile ? children : null
+}
+/*
+const Default = ({ children }) => {
+  const isNotMobile = useMediaQuery({ minWidth: 768 })
+  return isNotMobile ? children : null
+}
+*/
+
 const Home = () => {
-  const Desktop = ({ children }) => {
-    const isDesktop = useMediaQuery({ minWidth: 992 })
-    return isDesktop ? children : null
-  }
-  const Tablet = ({ children }) => {
-    const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 })
-    return isTablet ? children : null
-  }
-  const Mobile = ({ children }) => {
-    const isMobile = useMediaQuery({ maxWidth: 767 })
-    return isMobile ? children : null
-  }
-  const Default = ({ children }) => {
-    const isNotMobile = useMediaQuery({ minWidth: 768 })
-    return isNotMobile ? children : null
-  }
+
   return (
     <div>
     <Desktop>
@@ -53,6 +57,30 @@ const Home = () => {
       </video>
     </div>
     </Desktop>
+    <Mobile>
+    <div className="bloc_home_mobile" id="home">
+      <div className="homeContainer_mobile">
+        <div className="pict_bloc_mobile">
+        <img className="photoDeMoi_mobile" src={photoDeMoi} alt="Moi" />
+        <div className="triangle-code_mobile"></div>
+        </div>
+        <div className="blocText_mobile">
+          <h1 className="title_home_mobile">Jérémie Mandin</h1>
+          <h2 className="subTitle_home_mobile">Web Développeur</h2>
+          <ul className="List_mobile">
+            <li className="list_lang_mobile"><img className="list_lang_logo_mobile" src={htmlLogo} alt="Moi" />Html</li>
+            <li className="list_lang_mobile"><img className="list_lang_logo_mobile" src={cssLogo} alt="Moi" />CSS</li>
+            <li className="list_lang_mobile"><img className="list_lang_logo_mobile" src={jsLogo} alt="Moi" />Java Script</li>
+            <li className="list_lang_mobile"><img className="list_lang_logo_mobile" src={reactLogo} alt="Moi" />React</li>
+          </ul>
+        </div>
+      </div>
+      <video className="backgroundVideo_mobile" preload="true" autoPlay loop muted >
+        <source  src={backgroundvideo} type="video/mp4"/>
+          Sorry, your browser doesn't support embedded videos.
+      </video>
+    </div>
+    </Mobile>
     </div>
   );
 };

@@ -1,0 +1,10 @@
+.List_card {
+}
+.list_lang_card {
+  display: flex;
+  align-items: center;
+}
+.list_lang_logo_card {
+  width: 40px;
+  margin: 5px;
+}

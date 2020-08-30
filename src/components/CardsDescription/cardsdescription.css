@@ -1,0 +1,162 @@
+.PagesofCards {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-flow: wrap;
+}
+.cardsPage {
+  transition: 1s;
+  width: 35%;
+  height: 300px;
+  background-color: whitesmoke;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: rgba(255, 255, 255, 0.342) 2px 5px 7px;
+  border: black 0.1px solid;
+  border-radius: 5px;
+}
+.cardsPage:hover {
+  transition: 1s;
+  width: 35%;
+  height: 300px;
+  background-color: whitesmoke;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: rgba(255, 255, 255, 0.342) 4px 7px 9px;
+  border: black 0.1px solid;
+
+  border-radius: 5px;
+}
+.cardsTitle {
+  margin: 15px;
+}
+.cardsContain {
+  padding: 0px 15px 15px 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.cardCom {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  font-size: 1;
+}
+.cardsPageEnd {
+  transition: 1s;
+  width: 80%;
+  height: fit-content;
+  background-color: rgba(219, 0, 0, 0.932);
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: rgba(255, 255, 255, 0.342) 2px 5px 7px;
+  border: black 0.1px solid;
+  border-radius: 5px;
+}
+.cardsPageEnd:hover {
+  transition: 1s;
+  width: 80%;
+  height: fit-content;
+  background-color: whitesmoke;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: rgba(255, 255, 255, 0.342) 4px 7px 9px;
+  border: black 0.1px solid;
+  border-radius: 5px;
+}
+.cardsTitleEnd {
+  margin: 15px;
+  text-align: center;
+}
+.cardsContainEnd {
+  padding: 15px 15px 15px 15px;
+
+  text-align: center;
+}
+
+/* Mobile ---------------------------------------------------------------------*/
+
+.cardsPage_mobile {
+  transition: 1s;
+  width: 80%;
+  height: fit-content;
+  background-color: whitesmoke;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: rgba(255, 255, 255, 0.342) 2px 5px 7px;
+  border: black 0.1px solid;
+  border-radius: 5px;
+}
+.cardsPage_mobile:hover {
+  transition: 1s;
+  width: 80%;
+  height: fit-content;
+  background-color: whitesmoke;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: rgba(255, 255, 255, 0.342) 4px 7px 9px;
+  border: black 0.1px solid;
+  border-radius: 5px;
+}
+.cardsTitle_mobile {
+  margin: 15px;
+}
+.cardsContain_mobile {
+  padding: 0px 15px 15px 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardCom_mobile {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  font-size: 1;
+}
+.cardsPageEnd_mobile {
+  transition: 1s;
+  width: 80%;
+  height: fit-content;
+  background-color: rgba(219, 0, 0, 0.932);
+  margin: auto;
+  margin-top: 363px;
+  margin-bottom: 30px;
+  box-shadow: rgba(255, 255, 255, 0.342) 2px 5px 7px;
+  border: black 0.1px solid;
+  border-radius: 5px;
+}
+.cardsPageEnd_mobile:hover {
+  transition: 1s;
+  width: 80%;
+  height: fit-content;
+  background-color: whitesmoke;
+  margin: auto;
+  margin-top: 363px;
+  margin-bottom: 30px;
+  box-shadow: rgba(255, 255, 255, 0.342) 4px 7px 9px;
+  border: black 0.1px solid;
+  border-radius: 5px;
+}
+.cardsTitleEnd_mobile {
+  margin: 15px;
+  text-align: center;
+}
+.cardsContainEnd_mobile {
+  padding: 15px 15px 15px 15px;
+
+  text-align: center;
+}

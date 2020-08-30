@@ -2,8 +2,10 @@ import React from "react";
 
 import { useMediaQuery } from "react-responsive";
 
-import TimeLineXp from "../../components/TimeLineXp/index.js";
-import "./xp.css";
+import TimeLineFormations from "../../components/TimeLineFormations";
+import CardsFormations from "../../components/CardsFormations";
+import CardsFormationsMobile from "../../components/CardsFormationsMobile";
+import "./projects.css";
 
 const Desktop = ({ children }) => {
   const isDesktop = useMediaQuery({ minWidth: 992 });
@@ -21,27 +23,26 @@ const Default = ({ children }) => {
   const isNotMobile = useMediaQuery({ minWidth: 768 });
   return isNotMobile ? children : null;
 };
-const Xp = () => {
+
+const Formations = () => {
   return (
     <div>
       <Desktop>
-        <div className="bloc_xp" id="xp">
-          <h3 className="subTitle">Expériences Professionnelles</h3>
+        <div className="bloc_projects" id="projects">
+          <h3 className="subTitle">Mes Formations</h3>
           <div className="Bloc_TimeLine">
-            <TimeLineXp />
+            <TimeLineFormations />
           </div>
         </div>
       </Desktop>
       <Mobile>
-        <div className="bloc_xp" id="xp">
-          <h3 className="subTitle_mobile">Expériences Professionnelles</h3>
-          <div className="Bloc_TimeLine_mobile">
-            <TimeLineXp />
-          </div>
+        <div className="bloc_projects_mobile" id="projects">
+          <h3 className="subTitle_mobile">Mes Formations</h3>
+          <CardsFormationsMobile />
         </div>
       </Mobile>
     </div>
   );
 };
 
-export default Xp;
+export default Formations;
