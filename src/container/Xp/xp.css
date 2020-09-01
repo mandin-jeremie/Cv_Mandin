@@ -2,7 +2,7 @@
   max-width: 100%;
   height: fit-content;
   background-color: rgba(255, 0, 0, 0.527);
-  border: 1px solid black;
+  border-bottom: 2px solid black;
 }
 .subTitle {
   margin-top: 130px;

@@ -2,7 +2,7 @@
   max-width: 100%;
   height: fit-content;
   background-color: rgba(65, 253, 65, 0.671);
-  border: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 /* Mobile ---------------------------------------------- */

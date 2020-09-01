@@ -3,55 +3,59 @@
   height: 100%;
   padding-top: 140px;
   background-color: rgba(255, 255, 255, 0);
-  border-bottom: solid black 3px;
+  border-bottom: solid black 2px;
 }
-.backgroundVideo{
-  position: fixed; right: 0; bottom: 0;
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto; z-index: -100;
+.backgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
   background-size: cover;
 }
-.homeContainer{
+.homeContainer {
   display: flex;
   justify-content: space-around;
 }
-.blocText{
+.blocText {
   width: 600px;
   padding-top: 3.5rem;
   font-size: 25px;
   text-align: center;
-
 }
-.photoDeMoi{
+.photoDeMoi {
   max-width: 600px;
 }
 
-.title_home{
+.title_home {
   color: white;
   text-shadow: black 10px 7px 10px;
   font-size: 50px;
   text-align: center;
   height: fit-content;
 }
-.subTitle_home{
+.subTitle_home {
   color: white;
   text-shadow: black 10px 7px 10px;
   font-size: 30px;
   text-align: center;
   height: fit-content;
 }
-.List{
+.List {
   display: flex;
   flex-direction: column;
 }
-.list_lang{
+.list_lang {
   display: flex;
   align-items: center;
   list-style-type: none;
   color: white;
   text-shadow: black 10px 7px 10px;
 }
-.list_lang_logo{
+.list_lang_logo {
   width: 50px;
   margin-right: 20px;
 }
@@ -65,53 +69,57 @@
   background-color: rgba(255, 255, 255, 0);
   border-bottom: solid black 3px;
 }
-.backgroundVideo_mobile{
-  position: fixed; right: 0; bottom: 0;
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto; z-index: -100;
+.backgroundVideo_mobile {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
   background-size: cover;
 }
-.homeContainer_mobile{
+.homeContainer_mobile {
   display: flex;
   justify-content: space-around;
   flex-flow: wrap-reverse;
 }
-.blocText_mobile{
+.blocText_mobile {
   max-width: 100%;
   font-size: 25px;
   text-align: center;
-
 }
-.photoDeMoi_mobile{
+.photoDeMoi_mobile {
   max-width: 100%;
 }
 
-.title_home_mobile{
+.title_home_mobile {
   color: white;
   text-shadow: black 10px 7px 10px;
   font-size: 50px;
   text-align: center;
   height: fit-content;
 }
-.subTitle_home_mobile{
+.subTitle_home_mobile {
   color: white;
   text-shadow: black 10px 7px 10px;
   font-size: 30px;
   text-align: center;
   height: fit-content;
 }
-.List_mobile{
+.List_mobile {
   display: flex;
   flex-direction: column;
 }
-.list_lang_mobile{
+.list_lang_mobile {
   display: flex;
   align-items: center;
   list-style-type: none;
   color: white;
   text-shadow: black 10px 7px 10px;
 }
-.list_lang_logo_mobile{
+.list_lang_logo_mobile {
   width: 50px;
   margin-right: 20px;
 }
