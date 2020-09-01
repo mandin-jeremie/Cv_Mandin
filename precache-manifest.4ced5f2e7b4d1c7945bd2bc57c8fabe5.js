@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d53ddaa7294516f2d2becad7eaaf15d9",
+    "revision": "7d080e821deeb2bb04b15c1c92cc366a",
     "url": "/Cv_Mandin/index.html"
   },
   {
-    "revision": "1fe26da4a37174bc18e7",
-    "url": "/Cv_Mandin/static/css/main.02ba8a92.chunk.css"
+    "revision": "fcb291e45576df402fe2",
+    "url": "/Cv_Mandin/static/css/main.cae0c69a.chunk.css"
   },
   {
-    "revision": "ba67c0dbc14fd1eda69a",
-    "url": "/Cv_Mandin/static/js/2.5dc55266.chunk.js"
+    "revision": "61545be12253e6cb95ee",
+    "url": "/Cv_Mandin/static/js/2.b121a1a2.chunk.js"
   },
   {
     "revision": "90377550dd86ed303dd30d8f487872de",
-    "url": "/Cv_Mandin/static/js/2.5dc55266.chunk.js.LICENSE.txt"
+    "url": "/Cv_Mandin/static/js/2.b121a1a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1fe26da4a37174bc18e7",
-    "url": "/Cv_Mandin/static/js/main.407bb5a1.chunk.js"
+    "revision": "fcb291e45576df402fe2",
+    "url": "/Cv_Mandin/static/js/main.7f1110b8.chunk.js"
   },
   {
     "revision": "ab94ff0ff673721ac908",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "84184b406a9c3764787b784305d9d3fc",
     "url": "/Cv_Mandin/static/media/logo-formation-ssiap1-300x300.84184b40.png"
+  },
+  {
+    "revision": "05c02b90f4c2d3b9df29567b9ce0a250",
+    "url": "/Cv_Mandin/static/media/logo_J.M.05c02b90.png"
   },
   {
     "revision": "70f8e7c6f5d1143e76d2b32b221d324b",
