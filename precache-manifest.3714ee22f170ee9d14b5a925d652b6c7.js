@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d080e821deeb2bb04b15c1c92cc366a",
+    "revision": "63040d167258b1bb1ffddced597c8208",
     "url": "/Cv_Mandin/index.html"
   },
   {
-    "revision": "fcb291e45576df402fe2",
-    "url": "/Cv_Mandin/static/css/main.cae0c69a.chunk.css"
+    "revision": "470b026a2cdd6d2a5d45",
+    "url": "/Cv_Mandin/static/css/main.ba5eadbc.chunk.css"
   },
   {
-    "revision": "61545be12253e6cb95ee",
-    "url": "/Cv_Mandin/static/js/2.b121a1a2.chunk.js"
+    "revision": "756709245ced9b1dad0a",
+    "url": "/Cv_Mandin/static/js/2.9b0a0d3c.chunk.js"
   },
   {
     "revision": "90377550dd86ed303dd30d8f487872de",
-    "url": "/Cv_Mandin/static/js/2.b121a1a2.chunk.js.LICENSE.txt"
+    "url": "/Cv_Mandin/static/js/2.9b0a0d3c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fcb291e45576df402fe2",
-    "url": "/Cv_Mandin/static/js/main.7f1110b8.chunk.js"
+    "revision": "470b026a2cdd6d2a5d45",
+    "url": "/Cv_Mandin/static/js/main.419e3140.chunk.js"
   },
   {
     "revision": "ab94ff0ff673721ac908",
