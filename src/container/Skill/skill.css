@@ -3,6 +3,7 @@
   height: fit-content;
   background-color: rgba(0, 174, 255, 0.274);
   border-bottom: 2px solid black;
+  padding-top: 50px;
 }
 .bloc_skill_contain {
   margin: auto;

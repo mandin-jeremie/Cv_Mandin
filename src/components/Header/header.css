@@ -7,7 +7,6 @@
   width: 100%;
   height: fit-content;
   background-color: rgba(0, 0, 0, 0.39);
-
   position: fixed;
   top: 0;
   z-index: 10;
@@ -55,7 +54,7 @@
   transition: 1s;
   text-shadow: black 5px 2px 5px;
   margin: 10px;
-  border: rgb(149, 47, 250) solid 5px;
+
   color: whitesmoke;
   width: 120px;
   height: 80px;
@@ -71,7 +70,7 @@
   transition: 1s;
   text-shadow: black 5px 2px 5px;
   margin: 10px;
-  border: rgb(107, 23, 190) solid 5px;
+
   color: white;
   width: 80px;
   height: 50px;
@@ -81,6 +80,14 @@
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   cursor: pointer;
+}
+.logo_header_desktop_top {
+  width: 110px;
+  transition: 1s;
+}
+.logo_header_desktop_scrollDown {
+  width: 90px;
+  transition: 1s;
 }
 
 /* Mobile ----------------------------------------------------------------*/
@@ -140,7 +147,7 @@
   transition: 1s;
   text-shadow: black 5px 2px 5px;
   margin: 10px;
-  border: rgb(50, 252, 0) solid 5px;
+
   color: whitesmoke;
   width: 80px;
   height: 50px;
@@ -155,7 +162,7 @@
   transition: 1s;
   text-shadow: black 5px 2px 5px;
   margin: 10px;
-  border: rgb(252, 0, 0) solid 5px;
+
   color: whitesmoke;
   width: 80px;
   height: 50px;
@@ -172,4 +179,12 @@
 #customized-menu {
   display: flex;
   flex-flow: column;
+}
+.logo_header_desktop_mobile_top {
+  width: 90px;
+  transition: 1s;
+}
+.logo_header_desktop_mobile_scrollDown {
+  width: 90px;
+  transition: 1s;
 }

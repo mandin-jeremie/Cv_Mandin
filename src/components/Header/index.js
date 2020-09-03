@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import HeaderMobile from "../HeaderMobile/index.js";
 
 import { useMediaQuery } from "react-responsive";
+
+import logojm from "../../img/logo_J.M.png";
 
 import { Link } from "react-scroll";
 
@@ -87,7 +89,11 @@ const Header = ({
             onSetActive={handleSetActive}
             onClick={handleClickHome}
           >
-            J.M
+            <img
+              className={"logo_header_desktop_" + scrollStyle}
+              src={logojm}
+              alt="logo J.M"
+            />
           </Link>
           <Link
             className={"NavPage_" + scrollStyle}
@@ -142,7 +148,11 @@ const Header = ({
             duration={700}
             onSetActive={handleSetActive}
           >
-            J.M
+            <img
+              className={"logo_header_desktop_mobile_" + scrollStyle}
+              src={logojm}
+              alt="logo J.M"
+            />
           </Link>
           <HeaderMobile />
         </div>
