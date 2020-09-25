@@ -143,11 +143,15 @@ export default function CustomizedTimeline() {
                   Différents métiers de services
                 </div>
                 <Typography>
-                  <li>Serveur</li>
-                  <li>Receptioniste</li>
-                  <li>Barman</li>
-                  <li>Livreur de pizza</li>
-                  <li>Vendeur</li>
+                  Serveur
+                  <br />
+                  Receptioniste
+                  <br />
+                  Barman
+                  <br />
+                  Livreur de pizza
+                  <br />
+                  Vendeur
                 </Typography>
               </Paper>
             </TimelineContent>

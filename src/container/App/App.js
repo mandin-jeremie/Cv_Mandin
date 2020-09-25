@@ -46,8 +46,6 @@ const App = () => {
     setClickHome(false);
   };
 
-  console.log(clickHome);
-  console.log(clickNav);
   const scrollY = useScrollPosition(60 /*fps*/);
 
   let scrollStyle;
@@ -57,8 +55,6 @@ const App = () => {
   } else if (scrollY > 0 || clickNav) {
     scrollStyle = "scrollDown";
   }
-  console.log(scrollStyle);
-  console.log(scrollY);
 
   return (
     <div>
