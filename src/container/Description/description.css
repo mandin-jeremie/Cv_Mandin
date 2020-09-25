@@ -5,3 +5,13 @@
   border-bottom: 2px solid black;
   padding-top: 50px;
 }
+
+/*BigTablet --------------------------------------------------------------*/
+
+.bloc_description_BigTablet {
+  max-width: 100%;
+  height: fit-content;
+  background-color: rgba(23, 139, 0, 0.87);
+  border-bottom: 2px solid black;
+  padding-top: 14%;
+}

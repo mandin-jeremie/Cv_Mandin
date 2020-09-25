@@ -1,7 +1,7 @@
 .bloc_skill {
   max-width: 100%;
   height: fit-content;
-  background-color: rgba(0, 174, 255, 0.274);
+  background-color: rgba(255, 0, 0, 0.52);
   border-bottom: 2px solid black;
   padding-top: 50px;
 }
@@ -9,11 +9,21 @@
   margin: auto;
   width: 80%;
 }
+/*BigTablet --------------------------------------------------------------*/
+
+.bloc_skill_BigTablet {
+  max-width: 100%;
+  height: fit-content;
+  background-color: rgba(255, 0, 0, 0.52);
+  border-bottom: 2px solid black;
+  padding-top: 14%;
+}
+
 /* Mobile ----------------------------------------------------------------*/
 .bloc_skill_mobile {
   max-width: 100%;
   height: fit-content;
-  background-color: rgba(0, 174, 255, 0.274);
+  background-color: rgba(255, 0, 0, 0.52);
   border: 1px solid black;
 }
 .bloc_skill_contain_mobile {

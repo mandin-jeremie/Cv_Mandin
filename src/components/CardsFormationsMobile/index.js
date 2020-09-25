@@ -10,7 +10,7 @@ const CardsFormationMobile = () => {
   return (
     <div>
       <div className="cardsPage_mobile">
-        <h3 className="cardsTitle_mobile"> DÉVELOPPEUR WEB</h3>
+        <h3 className="cardsTitle_mobile"> Développeur Web</h3>
         <div className="cardsContain_mobile">De Octobre 2019 à Mars 2020</div>
         <div className="bloc_logo_formations">
           <a

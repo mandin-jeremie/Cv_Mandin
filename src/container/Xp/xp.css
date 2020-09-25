@@ -1,7 +1,7 @@
 .bloc_xp {
   max-width: 100%;
   height: fit-content;
-  background-color: rgba(255, 0, 0, 0.527);
+  background-color: rgba(0, 17, 255, 0.527);
   border-bottom: 2px solid black;
   padding-top: 50px;
 }
@@ -17,7 +17,15 @@
   max-width: 75%;
   margin: auto;
 }
+/*BigTablet --------------------------------------------------------------*/
 
+.bloc_xp_BigTablet {
+  max-width: 100%;
+  height: fit-content;
+  background-color: rgba(0, 17, 255, 0.527);
+  border-bottom: 2px solid black;
+  padding-top: 14%;
+}
 /* Mobile -------------------------------------------------------*/
 
 .subTitle_mobile {

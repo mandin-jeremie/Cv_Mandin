@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import useScrollPosition from "@react-hook/window-scroll";
 
@@ -22,14 +22,15 @@ const Tablet = ({ children }) => {
   return isTablet ? children : null;
 };
 const Mobile = ({ children }) => {
-  const isMobile = useMediaQuery({ minWidth: 300, maxWidth: 767 });
+  const isMobile = useMediaQuery({ minWidth: 150, maxWidth: 767 });
   return isMobile ? children : null;
 };
+/*
 const Default = ({ children }) => {
   const isNotMobile = useMediaQuery({ minWidth: 768 });
   return isNotMobile ? children : null;
 };
-
+*/
 const App = () => {
   const [clickHome, setClickHome] = useState(false);
   const [clickNav, setClickNav] = useState(false);
@@ -76,6 +77,21 @@ const App = () => {
           <Contact />
         </div>
       </Desktop>
+      <Tablet>
+        <div className="app_mobile">
+          <Header
+            handleClickHome={handleClickHome}
+            scrollStyle={scrollStyle}
+            handleClickNav={handleClickNav}
+          />
+          <Home />
+          <Skill />
+          <Xp />
+          <Formations />
+          <Description />
+          <Contact />
+        </div>
+      </Tablet>
       <Mobile>
         <div className="app_mobile">
           <Header

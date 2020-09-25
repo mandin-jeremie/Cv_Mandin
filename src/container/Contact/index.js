@@ -17,11 +17,12 @@ const Mobile = ({ children }) => {
   const isMobile = useMediaQuery({ minWidth: 300, maxWidth: 767 });
   return isMobile ? children : null;
 };
+/*
 const Default = ({ children }) => {
   const isNotMobile = useMediaQuery({ minWidth: 768 });
   return isNotMobile ? children : null;
 };
-
+*/
 const Contact = () => {
   return (
     <div>
@@ -31,6 +32,12 @@ const Contact = () => {
           <CardsContact />
         </div>
       </Desktop>
+      <Tablet>
+        <div className="bloc_contact" id="contact">
+          <h3 className="subTitle">Contact</h3>
+          <CardsContact />
+        </div>
+      </Tablet>
       <Mobile>
         <div className="bloc_contact" id="contact">
           <h3 className="subTitle">Contact</h3>

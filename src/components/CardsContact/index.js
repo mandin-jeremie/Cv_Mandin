@@ -17,10 +17,12 @@ const Mobile = ({ children }) => {
   const isMobile = useMediaQuery({ minWidth: 300, maxWidth: 767 });
   return isMobile ? children : null;
 };
+/*
 const Default = ({ children }) => {
   const isNotMobile = useMediaQuery({ minWidth: 768 });
   return isNotMobile ? children : null;
 };
+*/
 
 const CardsContact = () => {
   return (
@@ -51,6 +53,30 @@ const CardsContact = () => {
           </div>
         </div>
       </Desktop>
+      <Tablet>
+        <div className="cardsPage_mobile">
+          <h3 className="cardsTitle_mobile">Mes Coordonées</h3>
+          <div className="cardsContain_mobile">
+            E-mail :{" "}
+            <a className="cardCom_mobile" href="mailto:mandin.j@outlook.fr">
+              <MailIcon />
+              mandin.j@outlook.fr
+            </a>
+          </div>
+          <div className="cardsContain_mobile">
+            Phone :
+            <a className="cardCom_mobile" href="tel:+33676691562">
+              <CallIcon />
+              +33676691562
+            </a>
+          </div>
+        </div>
+        <div className="cardsPageEnd_mobile">
+          <div className="cardsContainEnd_mobile">
+            <p>Réaliser par M.MANDIN. 2020</p>
+          </div>
+        </div>
+      </Tablet>
       <Mobile>
         <div className="cardsPage_mobile">
           <h3 className="cardsTitle_mobile">Mes Coordonées</h3>

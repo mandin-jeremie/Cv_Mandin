@@ -1,0 +1,8 @@
+.cardsContain_white {
+  color: white;
+}
+.cardsContain {
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+}

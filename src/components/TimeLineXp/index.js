@@ -10,13 +10,12 @@ import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineOppositeContent from "@material-ui/lab/TimelineOppositeContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
-import FastfoodIcon from "@material-ui/icons/Fastfood";
+
 import LaptopMacIcon from "@material-ui/icons/LaptopMac";
-import HotelIcon from "@material-ui/icons/Hotel";
 import PetsIcon from "@material-ui/icons/Pets";
 import PowerIcon from "@material-ui/icons/Power";
 import LocalCafeIcon from "@material-ui/icons/LocalCafe";
-import RepeatIcon from "@material-ui/icons/Repeat";
+
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 
@@ -36,11 +35,12 @@ const Mobile = ({ children }) => {
   const isMobile = useMediaQuery({ minWidth: 300, maxWidth: 767 });
   return isMobile ? children : null;
 };
+/*
 const Default = ({ children }) => {
   const isNotMobile = useMediaQuery({ minWidth: 768 });
   return isNotMobile ? children : null;
 };
-
+*/
 const useStyles = makeStyles((theme) => ({
   paper: {
     padding: "20px 20px",
@@ -59,10 +59,10 @@ export default function CustomizedTimeline() {
         <Timeline align="alternate">
           <TimelineItem>
             <TimelineOppositeContent>
-              <Typography variant="body1" color="textPrimary">
+              <div className="cardsContain_white">
                 Juillet 2020
                 <p>A Bordeaux</p>
-              </Typography>
+              </div>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot variant="outlined">
@@ -72,9 +72,7 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
             <TimelineContent>
               <Paper elevation={3} className={classes.paper}>
-                <Typography variant="h6" component="h1">
-                  Stagiaire Web Developpeur
-                </Typography>
+                <div className="cardsContain">Stagiaire Web Developpeur</div>
                 <Typography>
                   A l'Addition en tant que developpeur React.
                 </Typography>
@@ -83,10 +81,10 @@ export default function CustomizedTimeline() {
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent>
-              <Typography variant="body1" color="textPrimary">
+              <div className="cardsContain_white">
                 De 2014 à 2019
                 <p>En Gironde</p>
-              </Typography>
+              </div>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot variant="outlined">
@@ -96,9 +94,7 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
             <TimelineContent>
               <Paper elevation={3} className={classes.paper}>
-                <Typography variant="h6" component="h1">
-                  Agent Cynophile de Sécurité
-                </Typography>
+                <div className="cardsContain">Agent Cynophile de Sécurité</div>
                 <Typography>
                   Dans différentes société privée dernièrement chez RVF Sécurité
                   pendant 3 ans assurant des missions dans la Gironde.
@@ -108,10 +104,10 @@ export default function CustomizedTimeline() {
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent>
-              <Typography variant="body1" color="textPrimary">
+              <div className="cardsContain_white">
                 De 2012 à 2013
                 <p>En Gironde</p>
-              </Typography>
+              </div>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot variant="outlined">
@@ -121,21 +117,19 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
             <TimelineContent>
               <Paper elevation={3} className={classes.paper}>
-                <Typography variant="h6" component="h1">
-                  Electricien en bâtiment
-                </Typography>
+                <div className="cardsContain">Electricien en bâtiment</div>
                 <Typography>Chez Bourdouleix dans la Gironde.</Typography>
               </Paper>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent>
-              <Typography variant="body1" color="textPrimary">
+              <div className="cardsContain_white">
                 De 2007 à 2012
                 <p>
                   A Monaco, Londres, Val Louron dans les Pyrénées et en Gironde.
                 </p>
-              </Typography>
+              </div>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot variant="outlined">
@@ -145,9 +139,9 @@ export default function CustomizedTimeline() {
             </TimelineSeparator>
             <TimelineContent>
               <Paper elevation={3} className={classes.paper}>
-                <Typography variant="h6" component="h1">
+                <div className="cardsContain">
                   Différents métiers de services
-                </Typography>
+                </div>
                 <Typography>
                   <li>Serveur</li>
                   <li>Receptioniste</li>
@@ -160,6 +154,11 @@ export default function CustomizedTimeline() {
           </TimelineItem>
         </Timeline>
       </Desktop>
+      <Tablet>
+        <div className="SkillCards">
+          <SkillCardsXpMobile />
+        </div>
+      </Tablet>
       <Mobile>
         <div className="SkillCards">
           <SkillCardsXpMobile />
