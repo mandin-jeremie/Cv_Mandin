@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Cv_Mandin/static/css/main.24d0cdc0.chunk.css",
-    "main.js": "/Cv_Mandin/static/js/main.16d2141c.chunk.js",
-    "main.js.map": "/Cv_Mandin/static/js/main.16d2141c.chunk.js.map",
+    "main.js": "/Cv_Mandin/static/js/main.a149aea0.chunk.js",
+    "main.js.map": "/Cv_Mandin/static/js/main.a149aea0.chunk.js.map",
     "runtime-main.js": "/Cv_Mandin/static/js/runtime-main.4589e2bb.js",
     "runtime-main.js.map": "/Cv_Mandin/static/js/runtime-main.4589e2bb.js.map",
     "static/js/2.7926cb57.chunk.js": "/Cv_Mandin/static/js/2.7926cb57.chunk.js",
     "static/js/2.7926cb57.chunk.js.map": "/Cv_Mandin/static/js/2.7926cb57.chunk.js.map",
     "index.html": "/Cv_Mandin/index.html",
-    "precache-manifest.4c206ad4dc6eca671d84961dd459666f.js": "/Cv_Mandin/precache-manifest.4c206ad4dc6eca671d84961dd459666f.js",
+    "precache-manifest.5cbd69d19ae8cb464c57a81dcb74ea5c.js": "/Cv_Mandin/precache-manifest.5cbd69d19ae8cb464c57a81dcb74ea5c.js",
     "service-worker.js": "/Cv_Mandin/service-worker.js",
     "static/css/main.24d0cdc0.chunk.css.map": "/Cv_Mandin/static/css/main.24d0cdc0.chunk.css.map",
     "static/js/2.7926cb57.chunk.js.LICENSE.txt": "/Cv_Mandin/static/js/2.7926cb57.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.4589e2bb.js",
     "static/js/2.7926cb57.chunk.js",
     "static/css/main.24d0cdc0.chunk.css",
-    "static/js/main.16d2141c.chunk.js"
+    "static/js/main.a149aea0.chunk.js"
   ]
 }
