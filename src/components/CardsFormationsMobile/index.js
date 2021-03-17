@@ -10,6 +10,26 @@ const CardsFormationMobile = () => {
   return (
     <div>
       <div className="cardsPage_mobile">
+        <h3 className="cardsTitle_mobile">Professionnalisation Développeur Web React</h3>
+        <div className="cardsContain_mobile">De Decembre 2020 à Fevrier 2021</div>
+        <div className="bloc_logo_formations">
+          <a
+            className="link_logo_formations"
+            href="https://oclock.io/formations/developpeur-react"
+          >
+            <img className="logo_formations" src={oclocklogo} alt="Moi" />
+            O'clock
+          </a>
+        </div>
+        <div className="cardsContain_mobile">
+          À O’clock, école de développement web en téléprésentiel - Labellisée Grande Ecole du Numérique.
+        </div>
+        <div className="cardsContain_mobile">
+          Titre Professionnel de Développeur Web et Web Mobile,
+          niveau V (bac+2) (Présentation Avril 2021).
+        </div>
+      </div>
+      <div className="cardsPage_mobile">
         <h3 className="cardsTitle_mobile"> Développeur Web</h3>
         <div className="cardsContain_mobile">De Octobre 2019 à Mars 2020</div>
         <div className="bloc_logo_formations">
@@ -22,10 +42,20 @@ const CardsFormationMobile = () => {
           </a>
         </div>
         <div className="cardsContain_mobile">
-          À O’clock, école de développement web en téléprésentiel.
+          À O’clock, école de développement web en téléprésentiel - Labellisée Grande Ecole du Numérique.
         </div>
         <div className="cardsContain_mobile">
-          Titre Professionnel de Développeur Web et Web Mobile, niveau III
+          700h intensives
+        </div>
+        <div className="cardsContain_mobile">
+          <ul>
+            <li>3 mois de Socle: HTML5/CSS3/PHP/Javascript</li>
+            <li>1 mois de spécialisation React</li>
+            <li>1 mois de projet</li>
+          </ul>
+        </div>
+        <div className="cardsContain_mobile">
+          Titre Professionnel de Développeur Web et Web Mobile, niveau V
           (bac+2) (non présenté).
         </div>
       </div>

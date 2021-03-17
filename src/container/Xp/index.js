@@ -33,7 +33,7 @@ const Xp = () => {
     <div>
       <Desktop>
         <div className="bloc_xp" id="xp">
-          <h3 className="subTitle">Expériences Professionnelles</h3>
+          <h3 className="subTitle">Expériences</h3>
           <div className="Bloc_TimeLine">
             <TimeLineXp />
           </div>
@@ -41,7 +41,7 @@ const Xp = () => {
       </Desktop>
       <BigTablet>
         <div className="bloc_xp_BigTablet" id="xp">
-          <h3 className="subTitle">Expériences Professionnelles</h3>
+          <h3 className="subTitle">Expériences</h3>
           <div className="Bloc_TimeLine">
             <TimeLineXp />
           </div>
@@ -49,7 +49,7 @@ const Xp = () => {
       </BigTablet>
       <Tablet>
         <div className="bloc_xp" id="xp">
-          <h3 className="subTitle_mobile">Expériences Professionnelles</h3>
+          <h3 className="subTitle_mobile">Expériences</h3>
           <div className="Bloc_TimeLine_mobile">
             <TimeLineXp />
           </div>
@@ -57,7 +57,7 @@ const Xp = () => {
       </Tablet>
       <Mobile>
         <div className="bloc_xp" id="xp">
-          <h3 className="subTitle_mobile">Expériences Professionnelles</h3>
+          <h3 className="subTitle_mobile">Expériences</h3>
           <div className="Bloc_TimeLine_mobile">
             <TimeLineXp />
           </div>
