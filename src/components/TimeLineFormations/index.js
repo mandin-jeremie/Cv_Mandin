@@ -67,6 +67,38 @@ export default function CustomizedTimeline() {
           <TimelineItem>
             <TimelineOppositeContent>
               <div className="cardsContain_white">
+                De Decembre 2020 à Fevrier 2021
+              </div>
+              <div className="bloc_logo_formations">
+                <a
+                  className="link_logo_formations"
+                  href="https://oclock.io/formations/developpeur-react"
+                >
+                  <img className="logo_formations" src={oclocklogo} alt="Moi" />
+                  O'clock
+                </a>
+              </div>
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined">
+                <LaptopMacIcon />
+              </TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              <Paper elevation={3} className={classes.paper}>
+                <div className="cardsContain">Professionnalisation Développeur Web React</div>
+                <Typography>
+                  À O’clock, école de développement web en téléprésentiel - Labellisée Grande Ecole du Numérique.
+                  <br /> Titre Professionnel de Développeur Web et Web Mobile,
+                  niveau V (bac+2) (Présentation Avril 2021).
+                </Typography>
+              </Paper>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineOppositeContent>
+              <div className="cardsContain_white">
                 De Octobre 2019 à Mars 2020
               </div>
               <div className="bloc_logo_formations">
@@ -89,9 +121,9 @@ export default function CustomizedTimeline() {
               <Paper elevation={3} className={classes.paper}>
                 <div className="cardsContain">Développeur Web</div>
                 <Typography>
-                  À O’clock, école de développement web en téléprésentiel.
+                  À O’clock, école de développement web en téléprésentiel - Labellisée Grande Ecole du Numérique.
                   <br /> Titre Professionnel de Développeur Web et Web Mobile,
-                  niveau III (bac+2) (non présenté).
+                  niveau V (bac+2) (non présenté).
                 </Typography>
               </Paper>
             </TimelineContent>
