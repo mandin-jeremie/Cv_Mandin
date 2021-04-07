@@ -4,6 +4,7 @@ import { useMediaQuery } from "react-responsive";
 
 import "./contact.css";
 import CardsContact from "../../components/CardsContact";
+import ContactForm from "../../components/ContactForm";
 
 const Desktop = ({ children }) => {
   const isDesktop = useMediaQuery({ minWidth: 992 });
@@ -29,6 +30,7 @@ const Contact = () => {
       <Desktop>
         <div className="bloc_contact" id="contact">
           <h3 className="subTitle">Contact</h3>
+          <ContactForm />
           <CardsContact />
         </div>
       </Desktop>
