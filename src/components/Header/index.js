@@ -4,7 +4,7 @@ import HeaderMobile from "../HeaderMobile/index.js";
 
 import { useMediaQuery } from "react-responsive";
 
-import logojm from "../../img/logo_J.M.png";
+import logojm from "../../img/logo_MJ_short.png";
 
 import { Link } from "react-scroll";
 
