@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
 
@@ -8,13 +7,13 @@ import "./contactform.css";
 
 const ContactForm = () => {
   const { register, handleSubmit, errors, reset } = useForm();
-
-  const [name, setName] = useState("");
-  const [company, setCompany] = useState("");
-  const [phone, setPhone] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
+  /*
+    const [name, setName] = useState("");
+    const [company, setCompany] = useState("");
+    const [phone, setPhone] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+  */
 
   const onSubmit = (data) => {
     /*
