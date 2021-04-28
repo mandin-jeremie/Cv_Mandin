@@ -1380,10 +1380,10 @@
   dependencies:
     "@babel/runtime" "^7.4.4"
 
-"@material-ui/lab@^4.0.0-alpha.56":
-  version "4.0.0-alpha.57"
-  resolved "https://registry.yarnpkg.com/@material-ui/lab/-/lab-4.0.0-alpha.57.tgz#e8961bcf6449e8a8dabe84f2700daacfcafbf83a"
-  integrity sha512-qo/IuIQOmEKtzmRD2E4Aa6DB4A87kmY6h0uYhjUmrrgmEAgbbw9etXpWPVXuRK6AGIQCjFzV6WO2i21m1R4FCw==
+"@material-ui/lab@^4.0.0-alpha.58":
+  version "4.0.0-alpha.58"
+  resolved "https://registry.yarnpkg.com/@material-ui/lab/-/lab-4.0.0-alpha.58.tgz#c7ebb66f49863c5acbb20817163737caa299fafc"
+  integrity sha512-GKHlJqLxUeHH3L3dGQ48ZavYrqGOTXkFkiEiuYMAnAvXAZP4rhMIqeHOPXSUQan4Bd8QnafDcpovOSLnadDmKw==
   dependencies:
     "@babel/runtime" "^7.4.4"
     "@material-ui/utils" "^4.11.2"
@@ -9021,7 +9021,6 @@ react-hook-form@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.1.1.tgz#b0e2990d4dfa153c4ff2f27fe72ff73d2fbe6a26"
   integrity sha512-d+tE+8FKLXioxemPnMnBOniMgmbCmAhBkP6EdOaJbqVpeRxfCfySMmg6EU9oruwnJbYpjx+IHTgheADqE8ruGA==
-
 
 react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
